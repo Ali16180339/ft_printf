@@ -12,7 +12,7 @@
 
 #include "ft_printf.h"
 
-int	check(char c, va_list args)
+stattic int	check(char c, va_list args)
 {
 	if (c == 'c')
 		return (ft_putchar(va_arg(args, int)));
